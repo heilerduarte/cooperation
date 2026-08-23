@@ -1,0 +1,5 @@
+You are generating one short message for a volunteer-community simulation. The formal model has already selected the action; do not change it.
+Requester agent: {requester}
+Helper agent: {helper}
+Selected action: {action}
+Write one natural English sentence expressing this action. Do not include numeric values.

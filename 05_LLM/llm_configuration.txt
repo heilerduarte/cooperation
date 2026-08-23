@@ -1,0 +1,45 @@
+LLM CONFIGURATION
+=================
+
+Model-serving platform: Ollama
+Model tag: deepseek-r1:8b
+
+Message generation:
+- temperature: 0.2
+- stream: false
+
+Action classification / social-signal extraction:
+- temperature: 0.0
+- response format requested: JSON
+- stream: false
+
+Requested extraction fields:
+- action
+- acceptance
+- reciprocity
+- consistency
+- utility
+
+Valid actions:
+- help
+- refuse
+- delay
+- repair
+- withdraw
+
+Fallback behavior:
+- Failed message-generation calls fall back to predefined message templates.
+- Failed signal-extraction calls fall back to rule-based extraction.
+- Missing/invalid numerical scores are normalized or replaced by deterministic fallback values.
+
+The experiment checkpoint metadata confirms:
+- backend: ollama
+- model: deepseek-r1:8b
+- seed base: 20260707
+
+Not available in the archived experiment metadata:
+- exact Ollama software version
+- exact model digest/hash
+
+If these can be recovered from the original execution machine, they should be
+added before the repository is made permanently public.
