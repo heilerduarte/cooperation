@@ -1,0 +1,25 @@
+metric,reference,comparison,test,statistic,p_value_raw,cliffs_delta_reference_minus_comparison,reference_mean,comparison_mean,p_value_holm
+final_mean_belonging,full_structured_model,payoff_only,Mann-Whitney U,900.0,1.2117803970059759e-12,1.0,0.9557214629420433,0.5,4.8471215880239036e-12
+final_mean_belonging,full_structured_model,reputation_only,Mann-Whitney U,900.0,1.2117803970059759e-12,1.0,0.9557214629420433,0.5,4.8471215880239036e-12
+final_mean_belonging,full_structured_model,belonging_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.9557214629420433,0.23317777777777723,6.039718718324314e-11
+final_mean_belonging,full_structured_model,full_llm_mediated_model,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.9557214629420433,0.05400246874936541,6.039718718324314e-11
+mean_helping_rate,full_structured_model,payoff_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6281619256674923,0.2370201284465075,1.2079437436648628e-10
+mean_helping_rate,full_structured_model,reputation_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6281619256674923,0.28708820880676783,1.2079437436648628e-10
+mean_helping_rate,full_structured_model,belonging_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6281619256674923,0.16922021392672823,1.2079437436648628e-10
+mean_helping_rate,full_structured_model,full_llm_mediated_model,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6281619256674923,0.2545334538194373,1.2079437436648628e-10
+mean_reciprocal_support_rate,full_structured_model,payoff_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6747053626411846,0.35238797852059206,1.2079437436648628e-10
+mean_reciprocal_support_rate,full_structured_model,reputation_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6747053626411846,0.3507150799374469,1.2079437436648628e-10
+mean_reciprocal_support_rate,full_structured_model,belonging_only,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6747053626411846,0.2839186045758532,1.2079437436648628e-10
+mean_reciprocal_support_rate,full_structured_model,full_llm_mediated_model,Mann-Whitney U,900.0,3.019859359162157e-11,1.0,0.6747053626411846,0.30930076635217435,1.2079437436648628e-10
+mean_volunteer_retention,full_structured_model,payoff_only,Mann-Whitney U,255.0,6.603696723371447e-05,-0.43333333333333335,0.9950444444444444,1.0,0.00013207393446742894
+mean_volunteer_retention,full_structured_model,reputation_only,Mann-Whitney U,255.0,6.603696723371447e-05,-0.43333333333333335,0.9950444444444444,1.0,0.00013207393446742894
+mean_volunteer_retention,full_structured_model,belonging_only,Mann-Whitney U,900.0,1.7859665457534555e-11,1.0,0.9950444444444444,0.7876000000000001,7.143866183013822e-11
+mean_volunteer_retention,full_structured_model,full_llm_mediated_model,Mann-Whitney U,900.0,1.7859665457534555e-11,1.0,0.9950444444444444,0.5248222222222222,7.143866183013822e-11
+mean_withdrawal_rate,full_structured_model,payoff_only,Mann-Whitney U,510.0,0.041926167596850805,0.13333333333333333,0.00035590335590334995,0.0,0.08385233519370161
+mean_withdrawal_rate,full_structured_model,reputation_only,Mann-Whitney U,510.0,0.041926167596850805,0.13333333333333333,0.00035590335590334995,0.0,0.08385233519370161
+mean_withdrawal_rate,full_structured_model,belonging_only,Mann-Whitney U,0.0,4.110972236174676e-12,-1.0,0.00035590335590334995,0.0772640046096547,1.6443888944698704e-11
+mean_withdrawal_rate,full_structured_model,full_llm_mediated_model,Mann-Whitney U,0.0,4.110972236174676e-12,-1.0,0.00035590335590334995,0.17120374465849628,1.6443888944698704e-11
+mean_collective_avoidance_rate,full_structured_model,payoff_only,Mann-Whitney U,900.0,1.2117803970059759e-12,1.0,0.7417957468457466,0.0,4.8471215880239036e-12
+mean_collective_avoidance_rate,full_structured_model,reputation_only,Mann-Whitney U,864.0,9.75550113457629e-10,0.92,0.7417957468457466,0.5720119314681782,1.951100226915258e-09
+mean_collective_avoidance_rate,full_structured_model,belonging_only,Mann-Whitney U,900.0,1.2117803970059759e-12,1.0,0.7417957468457466,0.0,4.8471215880239036e-12
+mean_collective_avoidance_rate,full_structured_model,full_llm_mediated_model,Mann-Whitney U,860.0,1.4109773081080244e-09,0.9111111111111111,0.7417957468457466,0.6031070657001671,1.951100226915258e-09

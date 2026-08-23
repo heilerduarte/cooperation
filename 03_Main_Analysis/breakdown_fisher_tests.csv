@@ -1,0 +1,5 @@
+metric,reference,comparison,test,odds_ratio,p_value_raw,reference_probability,comparison_probability,p_value_holm
+community_breakdown,full_structured_model,payoff_only,Fisher exact,,1.0,0.0,0.0,1.0
+community_breakdown,full_structured_model,reputation_only,Fisher exact,0.0,0.11239964317573597,0.0,0.13333333333333333,0.22479928635147195
+community_breakdown,full_structured_model,belonging_only,Fisher exact,0.0,1.4334985450146902e-08,0.0,0.6666666666666666,4.300495635044071e-08
+community_breakdown,full_structured_model,full_llm_mediated_model,Fisher exact,0.0,1.6911233892144735e-17,0.0,1.0,6.764493556857894e-17

@@ -1,0 +1,7 @@
+metric,test,statistic,p_value
+final_mean_belonging,Kruskal-Wallis,145.183623465056,2.190817634428111e-30
+mean_helping_rate,Kruskal-Wallis,126.58935099337748,2.0875972046610698e-26
+mean_reciprocal_support_rate,Kruskal-Wallis,112.25211479028701,2.4076715122486617e-23
+mean_volunteer_retention,Kruskal-Wallis,136.99624790550894,1.2405544413433685e-28
+mean_withdrawal_rate,Kruskal-Wallis,141.20744275032123,1.5564278701873488e-29
+mean_collective_avoidance_rate,Kruskal-Wallis,135.53022377972152,2.554782864928129e-28
